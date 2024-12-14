@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: none;
+    align-items: center;
+    background-image: url(city-buildings-night-sky-cityscape-scenery-digital-art-4k-wallpaper-uhdpaper.com-906@0@i.jpg);
+    color: red;
+    font-family: Arial, sans-serif;
+}
+html{
+    height: -20vh;
+    width: 100%;
+}
+#gameContainer {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    
+}
+
+#gameCanvas {
+    margin-top: 50px;
+    background: transparent;
+    display: block;
+    border: 2px solid white;
+}
